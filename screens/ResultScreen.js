@@ -60,21 +60,21 @@ const ResultScreen = () => {
   const data = [
     {
       name: 'Correct Answers',
-      population: (correctAnswers / totalQuestions) * 100,
+      population: correctAnswers,
       color: '#00C49F',
       legendFontColor: '#000000',
       legendFontSize: 15,
     },
     {
       name: 'Wrong Answers',
-      population: (wrongAnswers / totalQuestions) * 100,
+      population: wrongAnswers,
       color: '#FF8042',
       legendFontColor: '#000000',
       legendFontSize: 15,
     },
     {
       name: 'Not Attempted',
-      population: (unanswered / totalQuestions) * 100,
+      population: unanswered,
       color: '#FFBB28',
       legendFontColor: '#000000',
       legendFontSize: 15,

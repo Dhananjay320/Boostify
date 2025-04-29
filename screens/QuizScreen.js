@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, StyleSheet, Text, AppState } from 'react-native';
+import { View, StyleSheet, Text, AppState,ImageBackground  } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { getQuestions } from '../apis/api.js';
 import QuestionCard from '../components/QuestionCard';
@@ -108,6 +108,12 @@ const QuizScreen = () => {
   }
 
   return (
+    <ImageBackground
+    source={require('../assets/default.png')} // Make sure the image is present in your assets folder
+    style={{flex: 1}}
+    resizeMode="cover"
+    imageStyle={{ opacity: 0.5 }} // Optional: makes the image subtle
+  >
     <View style={styles.container}>
       {/* Timer Component */}
       <TimerComponent timer={timer} setTimer={setTimer} onTimeUp={handleTimeUp} />
@@ -122,15 +128,21 @@ const QuizScreen = () => {
       {/* Navigation Button */}
       <NavigationButtons onNext={handleNext} isNextDisabled={timer === 0} />
     </View>
+    </ImageBackground>
   );
 };
 
 const styles = StyleSheet.create({
+    background: {
+        flex: 1,
+        alignContent: 'center',
+        justifyContent: 'center',
+      },
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    padding: 20,
+    padding: '7%',
+    paddingTop: '40%',
     justifyContent: 'center',
+    alignContent: 'center',
   },
 });
 
