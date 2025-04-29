@@ -1,0 +1,168 @@
+[
+    {
+      "question": "What is a blockchain?",
+      "options": ["A centralized database", "A decentralized ledger", "A cloud storage system", "A data mining algorithm"],
+      "answer": "A decentralized ledger"
+    },
+    {
+      "question": "Which consensus algorithm does Bitcoin use?",
+      "options": ["Proof of Stake", "Proof of Work", "Proof of Authority", "Delegated Proof of Stake"],
+      "answer": "Proof of Work"
+    },
+    {
+      "question": "What is a smart contract?",
+      "options": ["A contract with legal binding", "A digital currency", "A self-executing contract with terms directly written in code", "A document signed electronically"],
+      "answer": "A self-executing contract with terms directly written in code"
+    },
+    {
+      "question": "Which of the following is a public blockchain?",
+      "options": ["Ethereum", "Hyperledger", "Ripple", "None of the above"],
+      "answer": "Ethereum"
+    },
+    {
+      "question": "What is a block in a blockchain?",
+      "options": ["A single transaction", "A record of data including transactions", "A list of smart contracts", "A cryptographic key"],
+      "answer": "A record of data including transactions"
+    },
+    {
+      "question": "What is the main advantage of using a blockchain?",
+      "options": ["Centralization of control", "Decentralization and security", "Faster transactions", "Lower transaction fees"],
+      "answer": "Decentralization and security"
+    },
+    {
+      "question": "What does the term 'mining' refer to in blockchain?",
+      "options": ["The process of verifying and adding transactions to the blockchain", "The creation of new blocks", "The validation of a blockchain's integrity", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which programming language is used to write smart contracts on the Ethereum blockchain?",
+      "options": ["Solidity", "Java", "Python", "Go"],
+      "answer": "Solidity"
+    },
+    {
+      "question": "What is the primary purpose of a cryptocurrency?",
+      "options": ["To serve as a store of value", "To enable decentralized transactions", "To provide security for networks", "To replace traditional banking systems"],
+      "answer": "To enable decentralized transactions"
+    },
+    {
+      "question": "What is a hash function in blockchain technology?",
+      "options": ["A function that encrypts data", "A function that generates a unique output from input data", "A function to validate transactions", "A function to create smart contracts"],
+      "answer": "A function that generates a unique output from input data"
+    },
+    {
+      "question": "Which of the following is a feature of a decentralized application (DApp)?",
+      "options": ["Centralized control", "Smart contract execution", "Single point of failure", "None of the above"],
+      "answer": "Smart contract execution"
+    },
+    {
+      "question": "What does 'forking' mean in the context of blockchain?",
+      "options": ["Creating a new blockchain from an existing one", "Verifying transactions", "Encrypting data", "Adding a new cryptocurrency"],
+      "answer": "Creating a new blockchain from an existing one"
+    },
+    {
+      "question": "What is the 'genesis block' in a blockchain?",
+      "options": ["The first block in a blockchain", "A block that records a major event", "The last block in a blockchain", "A block used for encryption purposes"],
+      "answer": "The first block in a blockchain"
+    },
+    {
+      "question": "What does a 'public key' in a blockchain network represent?",
+      "options": ["A private key for encryption", "A unique identifier for transactions", "A method to validate smart contracts", "A hash of a block"],
+      "answer": "A unique identifier for transactions"
+    },
+    {
+      "question": "What is a 'peer-to-peer network' in blockchain?",
+      "options": ["A network where nodes are connected through a central server", "A decentralized network where nodes communicate directly with each other", "A network of anonymous nodes", "A network that only accepts cryptocurrency"],
+      "answer": "A decentralized network where nodes communicate directly with each other"
+    },
+    {
+      "question": "What is an 'ICO' (Initial Coin Offering)?",
+      "options": ["A fundraising method for blockchain projects", "A cryptocurrency trading exchange", "A process for creating smart contracts", "A digital wallet system"],
+      "answer": "A fundraising method for blockchain projects"
+    },
+    {
+      "question": "What is the main function of a 'token' in blockchain?",
+      "options": ["To store encrypted data", "To represent assets, rights, or utility", "To create a decentralized app", "To verify transactions"],
+      "answer": "To represent assets, rights, or utility"
+    },
+    {
+      "question": "What is the 'double-spending problem' in cryptocurrency?",
+      "options": ["The ability to spend the same digital coin more than once", "The risk of data duplication in the blockchain", "The process of verifying multiple transactions", "The risk of inflation in cryptocurrency"],
+      "answer": "The ability to spend the same digital coin more than once"
+    },
+    {
+      "question": "Which blockchain platform is known for its enterprise use cases?",
+      "options": ["Ethereum", "Hyperledger", "Bitcoin", "Ripple"],
+      "answer": "Hyperledger"
+    },
+    {
+      "question": "Which of the following is a type of blockchain consensus mechanism?",
+      "options": ["Proof of Work", "Proof of Stake", "Proof of Authority", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is a 'smart contract' in Ethereum?",
+      "options": ["A program that automatically executes the terms of a contract when conditions are met", "A contract signed using encryption", "A ledger for recording transactions", "A digital signature"],
+      "answer": "A program that automatically executes the terms of a contract when conditions are met"
+    },
+    {
+      "question": "Which of these is a blockchain-based cryptocurrency?",
+      "options": ["Bitcoin", "Ethereum", "Ripple", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is a 'block explorer' in the context of blockchain?",
+      "options": ["A tool to mine new blocks", "A tool to track transactions on a blockchain", "A platform to create smart contracts", "A cryptocurrency wallet"],
+      "answer": "A tool to track transactions on a blockchain"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of a blockchain?",
+      "options": ["Decentralization", "Immutability", "Transparency", "Centralized control"],
+      "answer": "Centralized control"
+    },
+    {
+      "question": "What is a 'node' in a blockchain network?",
+      "options": ["A central server", "A user account", "A participant in the network that stores and validates data", "A wallet for cryptocurrency"],
+      "answer": "A participant in the network that stores and validates data"
+    },
+    {
+      "question": "Which of the following is an example of a private blockchain?",
+      "options": ["Ethereum", "Bitcoin", "Hyperledger Fabric", "Ripple"],
+      "answer": "Hyperledger Fabric"
+    },
+    {
+      "question": "What is 'sharding' in blockchain technology?",
+      "options": ["Breaking a blockchain into smaller pieces to improve scalability", "A method of creating new blocks", "A way to mine more cryptocurrency", "A form of cryptographic encryption"],
+      "answer": "Breaking a blockchain into smaller pieces to improve scalability"
+    },
+    {
+      "question": "What is the main difference between a blockchain and a traditional database?",
+      "options": ["Blockchains are decentralized, while traditional databases are centralized", "Blockchains are slower", "Traditional databases are immutable", "Blockchains can store larger amounts of data"],
+      "answer": "Blockchains are decentralized, while traditional databases are centralized"
+    },
+    {
+      "question": "What is a 'ledger' in blockchain?",
+      "options": ["A list of transactions", "A record of smart contracts", "A platform for building DApps", "A user account"],
+      "answer": "A list of transactions"
+    },
+    {
+      "question": "What is 'cryptocurrency mining'?",
+      "options": ["The process of creating new cryptocurrencies", "The process of verifying transactions and adding them to the blockchain", "The process of developing blockchain applications", "The process of securing a blockchain"],
+      "answer": "The process of verifying transactions and adding them to the blockchain"
+    },
+    {
+      "question": "What is a 'wallet' in the context of cryptocurrency?",
+      "options": ["A physical wallet for storing cash", "A software application for storing and managing cryptocurrencies", "A type of blockchain", "A method of mining"],
+      "answer": "A software application for storing and managing cryptocurrencies"
+    },
+    {
+      "question": "What is 'gas' in Ethereum?",
+      "options": ["A type of cryptocurrency", "A fee required to execute transactions or smart contracts", "A method of mining", "A type of blockchain"],
+      "answer": "A fee required to execute transactions or smart contracts"
+    },
+    {
+      "question": "What is the purpose of a 'cryptographic hash' in blockchain?",
+      "options": ["To encrypt data", "To create a unique identifier for data", "To validate transactions", "All of the above"],
+      "answer": "All of the above"
+    }
+  ]
+  

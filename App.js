@@ -4,7 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen.js';
 import QuizScreen from './screens/QuizScreen.js';
 import ResultScreen from './screens/ResultScreen.js';
-import { StatusBar } from 'react-native';
+
 
 const Stack = createNativeStackNavigator();
 

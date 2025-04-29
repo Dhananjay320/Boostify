@@ -1,0 +1,278 @@
+[
+    {
+      "question": "Who is the current president of the United States?",
+      "options": ["Barack Obama", "Donald Trump", "Joe Biden", "George W. Bush"],
+      "answer": "Joe Biden"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Venus", "Jupiter"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which of these is the longest river in the world?",
+      "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "answer": "Nile River"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Pb", "Fe"],
+      "answer": "Au"
+    },
+    {
+      "question": "Which is the largest continent by area?",
+      "options": ["Africa", "Asia", "North America", "Europe"],
+      "answer": "Asia"
+    },
+    {
+      "question": "What does 'www' stand for in a website address?",
+      "options": ["Wide World Web", "World Wide Web", "World Web Works", "Wide Web Works"],
+      "answer": "World Wide Web"
+    },
+    {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "Which of these is a synonym for 'happy'?",
+      "options": ["Sad", "Joyful", "Angry", "Confused"],
+      "answer": "Joyful"
+    },
+    {
+      "question": "Which is the correct sentence?",
+      "options": ["She can sings beautifully", "She can sing beautifully", "She can sung beautifully", "She can sung beautiful"],
+      "answer": "She can sing beautifully"
+    },
+    {
+      "question": "In which year did India gain independence?",
+      "options": ["1947", "1950", "1960", "1935"],
+      "answer": "1947"
+    },
+    {
+      "question": "Which of the following is a mammal?",
+      "options": ["Shark", "Frog", "Bat", "Lizard"],
+      "answer": "Bat"
+    },
+    {
+      "question": "Which one of these is a compound sentence?",
+      "options": ["I am tired.", "I went to the park, and I saw my friend.", "She is reading a book.", "He went home."],
+      "answer": "I went to the park, and I saw my friend."
+    },
+    {
+      "question": "What is the synonym for 'quick'?",
+      "options": ["Fast", "Slow", "Steady", "Lazy"],
+      "answer": "Fast"
+    },
+    {
+      "question": "Which of these is the capital of Japan?",
+      "options": ["Seoul", "Beijing", "Tokyo", "Osaka"],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the antonym of 'optimistic'?",
+      "options": ["Pessimistic", "Happy", "Cheerful", "Hopeful"],
+      "answer": "Pessimistic"
+    },
+    {
+      "question": "Which of the following is an example of an adverb?",
+      "options": ["Quickly", "Dog", "Run", "Fast"],
+      "answer": "Quickly"
+    },
+    {
+      "question": "What is the longest river in Asia?",
+      "options": ["Yangtze River", "Mekong River", "Ganges River", "Yellow River"],
+      "answer": "Yangtze River"
+    },
+    {
+      "question": "Which word is a noun?",
+      "options": ["Happily", "Quickly", "Love", "Beautifully"],
+      "answer": "Love"
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "India", "Japan", "South Korea"],
+      "answer": "Japan"
+    },
+    {
+      "question": "Which one of these is the plural form of 'child'?",
+      "options": ["Childs", "Children", "Childes", "Childeren"],
+      "answer": "Children"
+    },
+    {
+      "question": "What is the correct preposition in the sentence: 'She is sitting ___ the chair'?",
+      "options": ["on", "in", "at", "under"],
+      "answer": "on"
+    },
+    {
+      "question": "Which of these is a natural satellite of Earth?",
+      "options": ["Mars", "Venus", "Moon", "Sun"],
+      "answer": "Moon"
+    },
+    {
+      "question": "What is the correct spelling of the word that means 'to make something larger in size'?",
+      "options": ["Enlargment", "Enlargement", "Enlargin", "Enlarging"],
+      "answer": "Enlargement"
+    },
+    {
+      "question": "What does the acronym 'HTML' stand for?",
+      "options": ["HyperText Machine Language", "HyperText Markup Language", "HighText Markup Language", "None of the above"],
+      "answer": "HyperText Markup Language"
+    },
+    {
+      "question": "Who is known as the Father of Computers?",
+      "options": ["Charles Babbage", "Alan Turing", "Bill Gates", "Steve Jobs"],
+      "answer": "Charles Babbage"
+    },
+    {
+      "question": "Which of the following is a primary color?",
+      "options": ["Green", "Red", "Purple", "Orange"],
+      "answer": "Red"
+    },
+    {
+      "question": "What is the opposite of 'increase'?",
+      "options": ["Reduce", "Add", "Multiply", "Grow"],
+      "answer": "Reduce"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Osmium", "Ozone", "Oganesson"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "Which is the smallest country in the world?",
+      "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+      "answer": "Vatican City"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "What is the synonym of 'begin'?",
+      "options": ["Start", "End", "Pause", "Stop"],
+      "answer": "Start"
+    },
+    {
+      "question": "Which part of the sentence is the subject in 'The dog barked loudly'?",
+      "options": ["The dog", "Barked", "Loudly", "None of the above"],
+      "answer": "The dog"
+    },
+    {
+      "question": "Which of the following is a color of the rainbow?",
+      "options": ["Pink", "Purple", "White", "Black"],
+      "answer": "Purple"
+    },
+    {
+      "question": "What is the main ingredient in guacamole?",
+      "options": ["Tomato", "Avocado", "Onion", "Pepper"],
+      "answer": "Avocado"
+    },
+    {
+      "question": "Which of these is a renewable energy source?",
+      "options": ["Coal", "Natural Gas", "Solar Energy", "Nuclear Energy"],
+      "answer": "Solar Energy"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "answer": "Blue Whale"
+    },
+    {
+      "question": "Which of these is a type of cloud?",
+      "options": ["Cumulus", "Cumulonimbus", "Stratus", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "options": ["0°C", "50°C", "100°C", "212°C"],
+      "answer": "100°C"
+    },
+    {
+      "question": "Which of these is a famous painting by Vincent van Gogh?",
+      "options": ["The Starry Night", "Mona Lisa", "The Scream", "The Persistence of Memory"],
+      "answer": "The Starry Night"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "Which of these is a programming language?",
+      "options": ["HTML", "CSS", "JavaScript", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the capital of Italy?",
+      "options": ["Rome", "Venice", "Florence", "Milan"],
+      "answer": "Rome"
+    },
+    {
+      "question": "Which of these is a type of fruit?",
+      "options": ["Carrot", "Potato", "Apple", "Broccoli"],
+      "answer": "Apple"
+    },
+    {
+      "question": "What is the main ingredient in bread?",
+      "options": ["Flour", "Sugar", "Salt", "Water"],
+      "answer": "Flour"
+    },
+    {
+      "question": "Which of these is a famous novel by George Orwell?",
+      "options": ["1984", "Brave New World", "Fahrenheit 451", "The Great Gatsby"],
+      "answer": "1984"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Desert"],
+      "answer": "Antarctic Desert"
+    },
+    {
+      "question": "Which of these is a type of pasta?",
+      "options": ["Sushi", "Tortellini", "Taco", "Burrito"],
+      "answer": "Tortellini"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "answer": "Canberra"
+    },
+    {
+      "question": "Which of these is a famous landmark in Egypt?",
+      "options": ["Eiffel Tower", "Great Wall of China", "Pyramids of Giza", "Statue of Liberty"],
+      "answer": "Pyramids of Giza"
+    },
+    {
+      "question": "What is the main ingredient in sushi?",
+      "options": ["Rice", "Noodles", "Bread", "Potatoes"],
+      "answer": "Rice"
+    },
+    {
+      "question": "Which of these is a type of tree?",
+      "options": ["Rose", "Tulip", "Oak", "Daisy"],
+      "answer": "Oak"
+    },
+    {
+      "question": "What is the capital of Spain?",
+      "options": ["Barcelona", "Madrid", "Seville", "Valencia"],
+      "answer": "Madrid"
+    }
+  ]
+  

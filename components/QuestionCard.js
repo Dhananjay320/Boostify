@@ -6,7 +6,6 @@ const QuestionCard = ({ questionData, selectedOption, onSelectOption, timer }) =
 
   return (
     <View>
-      <Text style={styles.timer}>Time Left: {timer}s</Text>
       <Text style={styles.question}>{questionData.question}</Text>
       {questionData.options.map((option, index) => (
         <TouchableOpacity
@@ -25,12 +24,7 @@ const QuestionCard = ({ questionData, selectedOption, onSelectOption, timer }) =
 };
 
 const styles = StyleSheet.create({
-  timer: {
-    fontSize: 18,
-    color: 'red',
-    textAlign: 'center',
-    marginBottom: 20,
-  },
+
   question: {
     fontSize: 20,
     marginBottom: 20,

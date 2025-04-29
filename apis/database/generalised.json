@@ -1,0 +1,184 @@
+[
+    { "question": "What is the output of 2 ** 3 in Python?", "options": ["6", "8", "9", "Error"], "answer": "8" },
+    { "question": "Which data structure uses LIFO order?", "options": ["Queue", "Stack", "Array", "Tree"], "answer": "Stack" },
+    { "question": "What is a primary key in a database?", "options": ["Unique identifier", "Foreign key", "Duplicate value", "Index"], "answer": "Unique identifier" },
+    { "question": "What does HTML stand for?", "options": ["Hyper Trainer Marking Language", "HyperText Markup Language", "HighText Machine Language", "None"], "answer": "HyperText Markup Language" },
+    { "question": "Which sorting algorithm is the fastest in average case?", "options": ["Bubble Sort", "Quick Sort", "Insertion Sort", "Selection Sort"], "answer": "Quick Sort" },
+    { "question": "Which keyword is used to define a function in Python?", "options": ["func", "def", "function", "define"], "answer": "def" },
+    { "question": "What is the time complexity of binary search?", "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"], "answer": "O(log n)" },
+    { "question": "Which language is best suited for web frontend?", "options": ["Java", "HTML", "Python", "SQL"], "answer": "HTML" },
+    { "question": "Which of these is not a primitive data type?", "options": ["int", "float", "list", "char"], "answer": "list" },
+    { "question": "What is an IDE?", "options": ["A programming language", "An editor", "A debugging tool", "Integrated Development Environment"], "answer": "Integrated Development Environment" },
+    { "question": "Which of the following is used for version control?", "options": ["Git", "Grep", "Gulp", "GCC"], "answer": "Git" },
+    { "question": "What symbol is used to comment in Python?", "options": ["//", "#", "<!--", "/* */"], "answer": "#" },
+    { "question": "Which data structure is used to implement recursion?", "options": ["Queue", "Tree", "Stack", "Linked List"], "answer": "Stack" },
+    { "question": "What is Big-O notation used for?", "options": ["Function naming", "Algorithm complexity", "Code debugging", "Memory allocation"], "answer": "Algorithm complexity" },
+    { "question": "What is the default port for HTTP?", "options": ["80", "443", "21", "22"], "answer": "80" },
+    { "question": "What is the extension for a Java file?", "options": [".py", ".java", ".js", ".cpp"], "answer": ".java" },
+    { "question": "What is a pointer?", "options": ["A variable", "A reference to memory", "An operator", "A function"], "answer": "A reference to memory" },
+    { "question": "What is recursion?", "options": ["A loop", "A function calling itself", "A variable", "A constant"], "answer": "A function calling itself" },
+    { "question": "Which one is a backend language?", "options": ["CSS", "JavaScript", "Python", "HTML"], "answer": "Python" },
+    { "question": "Which structure is non-linear?", "options": ["Array", "Stack", "Queue", "Graph"], "answer": "Graph" },
+    { "question": "Which protocol is used for sending emails?", "options": ["HTTP", "SMTP", "FTP", "TCP"], "answer": "SMTP" },
+    { "question": "What is the full form of SQL?", "options": ["Structured Query Language", "Simple Query Language", "Structured Quick Language", "Simple Quick Language"], "answer": "Structured Query Language" },
+    { "question": "Which of these is a dynamic programming language?", "options": ["Python", "C", "Java", "C++"], "answer": "Python" },
+    { "question": "Which keyword is used to create a class in Java?", "options": ["object", "define", "class", "new"], "answer": "class" },
+    { "question": "What is an API?", "options": ["Application Programming Interface", "Advanced Protocol Interface", "Application Process Interface", "All Program Interface"], "answer": "Application Programming Interface" },
+    { "question": "Which operator is used for 'not equal' in Python?", "options": ["!=", "==", "=>", "><"], "answer": "!=" },
+    { "question": "What is the use of the 'return' statement?", "options": ["To end a function", "To skip a loop", "To exit a program", "To send value from function"], "answer": "To send value from function" },
+    { "question": "Which tag is used to insert an image in HTML?", "options": ["<image>", "<img>", "<pic>", "<src>"], "answer": "<img>" },
+    { "question": "Which command compiles a Java file?", "options": ["java", "javac", "run", "compile"], "answer": "javac" },
+    { "question": "Which Python data type is immutable?", "options": ["List", "Set", "Tuple", "Dictionary"], "answer": "Tuple" },
+        {
+          "question": "Which of the following is a linear data structure?",
+          "options": ["Tree", "Graph", "Queue", "Hash Map"],
+          "answer": "Queue"
+        },
+        {
+          "question": "What does O(n) represent in Big-O notation?",
+          "options": ["Constant time complexity", "Linear time complexity", "Logarithmic time complexity", "Quadratic time complexity"],
+          "answer": "Linear time complexity"
+        },
+        {
+          "question": "Which of the following algorithms is used for finding the shortest path in a graph?",
+          "options": ["Bubble Sort", "Dijkstra's Algorithm", "QuickSort", "Binary Search"],
+          "answer": "Dijkstra's Algorithm"
+        },
+        {
+          "question": "What is a recursive function?",
+          "options": ["A function that calls another function", "A function that calls itself", "A function that runs in a loop", "A function with no return value"],
+          "answer": "A function that calls itself"
+        },
+        {
+          "question": "What is the main difference between an array and a linked list?",
+          "options": ["Array stores data in non-contiguous memory, linked list stores in contiguous memory", "Array has a fixed size, linked list can grow dynamically", "Array is slower for searching, linked list is faster", "There is no difference between them"],
+          "answer": "Array has a fixed size, linked list can grow dynamically"
+        },
+        {
+          "question": "Which of these algorithms is not based on the divide-and-conquer technique?",
+          "options": ["Merge Sort", "Quick Sort", "Heap Sort", "Binary Search"],
+          "answer": "Heap Sort"
+        },
+        {
+          "question": "What is the space complexity of the Merge Sort algorithm?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+          "answer": "O(n)"
+        },
+        {
+          "question": "In which case does a binary search fail to work?",
+          "options": ["When the array is sorted in ascending order", "When the array contains duplicates", "When the array is unsorted", "When the array is sorted in descending order"],
+          "answer": "When the array is unsorted"
+        },
+        {
+          "question": "Which of the following is a disadvantage of an array?",
+          "options": ["Static size", "No direct access to elements", "Slow access time", "Slow insertion and deletion"],
+          "answer": "Static size"
+        },
+        {
+          "question": "What is the worst-case time complexity of QuickSort?",
+          "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+          "answer": "O(n^2)"
+        },
+        {
+          "question": "What is a hash function used for?",
+          "options": ["Encrypting data", "Assigning unique identifiers to keys", "Sorting data", "Compressing data"],
+          "answer": "Assigning unique identifiers to keys"
+        },
+        {
+          "question": "Which of these is not a valid way to traverse a tree?",
+          "options": ["In-order", "Pre-order", "Post-order", "Level-order"],
+          "answer": "All are valid methods"
+        },
+        {
+          "question": "Which algorithm is used to sort data in descending order by default in Python's sort function?",
+          "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Heap Sort"],
+          "answer": "None, it's ascending by default but can be reversed using the reverse flag."
+        },
+        {
+          "question": "What is the main advantage of using a stack data structure?",
+          "options": ["Faster search", "Access to elements in random order", "LIFO access pattern", "Support for sorted order"],
+          "answer": "LIFO access pattern"
+        },
+        {
+          "question": "Which of these data structures is typically used for implementing recursion?",
+          "options": ["Queue", "Stack", "Graph", "Tree"],
+          "answer": "Stack"
+        },
+        {
+          "question": "What is the primary use case of a priority queue?",
+          "options": ["Storing unique elements", "Sorting elements in a fixed order", "Processing elements with priority", "Storing key-value pairs"],
+          "answer": "Processing elements with priority"
+        },
+        {
+          "question": "Which of the following statements is true for linked lists?",
+          "options": ["Linked lists have a fixed size", "Accessing an element by index is fast", "Insertion and deletion operations are generally faster than arrays", "Elements are stored in contiguous memory locations"],
+          "answer": "Insertion and deletion operations are generally faster than arrays"
+        },
+        {
+          "question": "Which of these is not a type of tree traversal?",
+          "options": ["Pre-order", "Post-order", "In-order", "Sub-order"],
+          "answer": "Sub-order"
+        },
+        {
+          "question": "What is the difference between a shallow copy and a deep copy?",
+          "options": ["Shallow copy creates a new object, deep copy modifies the original object", "Shallow copy copies references, deep copy copies the actual object", "Shallow copy doesn't work with complex objects", "There is no difference"],
+          "answer": "Shallow copy copies references, deep copy copies the actual object"
+        },
+        {
+          "question": "Which sorting algorithm is based on the divide-and-conquer strategy?",
+          "options": ["QuickSort", "Bubble Sort", "Insertion Sort", "Selection Sort"],
+          "answer": "QuickSort"
+        },
+        {
+          "question": "What is the main disadvantage of using a hash table?",
+          "options": ["High memory usage", "Inability to store large amounts of data", "Collisions in hashing", "Slow access time"],
+          "answer": "Collisions in hashing"
+        },
+        {
+          "question": "Which of the following is a non-linear data structure?",
+          "options": ["Array", "Linked List", "Stack", "Tree"],
+          "answer": "Tree"
+        },
+        {
+          "question": "What is the time complexity of accessing an element in a hash table?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+          "answer": "O(1)"
+        },
+        {
+          "question": "Which of these is not a type of linked list?",
+          "options": ["Singly Linked List", "Doubly Linked List", "Circular Linked List", "Multi-linked List"],
+          "answer": "Multi-linked List"
+        },
+        {
+          "question": "What is the main purpose of a binary search tree?",
+          "options": ["To store data in sorted order", "To allow fast searching", "To allow fast insertion and deletion", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "Which of these is not a type of graph?",
+          "options": ["Directed Graph", "Undirected Graph", "Weighted Graph", "Circular Graph"],
+          "answer": "Circular Graph"
+        },
+        {
+          "question": "What is the time complexity of inserting an element in a balanced binary search tree?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "answer": "O(log n)"
+        },
+        {
+          "question": "Which of these is not a type of sorting algorithm?",
+          "options": ["Bubble Sort", "Quick Sort", "Heap Sort", "Stack Sort"],
+          "answer": "Stack Sort"
+        },
+        {
+          "question": "What is the main advantage of using a queue data structure?",
+          "options": ["FIFO access pattern", "LIFO access pattern", "Faster search", "Support for sorted order"],
+          "answer": "FIFO access pattern"
+        },
+        {
+          "question": "Which of these is not a type of tree?",
+          "options": ["Binary Tree", "Binary Search Tree", "AVL Tree", "Circular Tree"],
+          "answer": "Circular Tree"
+        }
+      ]
+
+  

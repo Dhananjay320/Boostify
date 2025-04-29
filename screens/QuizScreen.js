@@ -1,13 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, StyleSheet, AppState, Text } from 'react-native';
-import { fetchQuestions } from '../apis/fetchQuestions';
+import { View, StyleSheet, Text, AppState } from 'react-native';
+import { useNavigation, useRoute } from '@react-navigation/native';
+import { getQuestions } from '../apis/api.js';
 import QuestionCard from '../components/QuestionCard';
-import { useNavigation, useRoute } from '@react-navigation/native'; // Updated to use navigation hooks
+import TimerComponent from '../components/TimerComponent';
+import NavigationButtons from '../components/NavigationButtons';
 
 const QuizScreen = () => {
-  const navigation = useNavigation();  
-  const route = useRoute(); // Get route params
-  const courseName = route.params?.topic; // Get the topic from route params
+  const navigation = useNavigation();
+  const route = useRoute();
+  const courseName = route.params?.topic;
 
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,7 +19,7 @@ const QuizScreen = () => {
   const [loading, setLoading] = useState(true);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState(0);
-  const [unanswered, setUnanswered] = useState(0); // Track unanswered questions
+  const [unanswered, setUnanswered] = useState(0);
 
   const appState = useRef(AppState.currentState);
 
@@ -30,89 +32,57 @@ const QuizScreen = () => {
   }, []);
 
   const loadQuestions = async () => {
-    const text = await fetchQuestions(courseName);
+    const text = getQuestions(courseName);
     if (text) {
-      const parsed = parseQuestions(text);
-      setQuestions(parsed);
+      setQuestions(text);
     }
     setLoading(false);
   };
 
-  useEffect(() => {
-    let interval = null;
-    if (timer > 0) {
-      interval = setInterval(() => {
-        setTimer(prev => prev - 1);
-      }, 1000);
-    } else {
-      handleNext();
-    }
-    return () => clearInterval(interval);
-  }, [timer]);
-
-  const parseQuestions = (text) => {
-    const lines = text.split('\n').filter(line => line.trim() !== '');
-    const questionsArray = [];
-    let currentQuestion = { question: '', options: [], answer: '' };
-
-    lines.forEach(line => {
-      if (line.match(/^\d+\./)) {
-        if (currentQuestion.question) {
-          questionsArray.push(currentQuestion);
-          currentQuestion = { question: '', options: [], answer: '' };
-        }
-        currentQuestion.question = line.replace(/^\d+\.\s*/, '');
-      } else if (line.match(/^[A-D]\)/)) {
-        currentQuestion.options.push(line.trim());
-      } else if (line.toLowerCase().startsWith('answer')) {
-        currentQuestion.answer = line.split(':')[1]?.trim();
-      }
-    });
-
-    if (currentQuestion.question) {
-      questionsArray.push(currentQuestion);
-    }
-
-    return questionsArray;
-  };
-
   const handleOptionSelect = (option) => {
+    if (questions[currentIndex].hasAnswered) return; // Prevent multiple answers for same question
     setSelectedOption(option);
-    const correctOption = questions[currentIndex].answer;
-
-    if (option.includes(correctOption)) {
-      setScore(score + 4);
-      setCorrectAnswers(correctAnswers + 1);
-    } else {
-      setScore(score - 1);
-      setWrongAnswers(wrongAnswers + 1);
-    }
-    setTimeout(() => {
-      handleNext();
-    }, 300);
   };
 
   const handleNext = () => {
-    // Check if no option was selected, then increase unanswered count
-    if (selectedOption === null) {
+    // Check if the user has answered the question
+    if (!selectedOption) {
       setUnanswered(unanswered + 1);
+    } else {
+      const correctOption = questions[currentIndex].answer;
+      if (selectedOption.includes(correctOption)) {
+        setScore(score + 4);
+        setCorrectAnswers(correctAnswers + 1);
+      } else {
+        setScore(score - 1);
+        setWrongAnswers(wrongAnswers + 1);
+      }
     }
 
+    // Mark the question as answered
+    const updatedQuestions = [...questions];
+    updatedQuestions[currentIndex].hasAnswered = true;
+    setQuestions(updatedQuestions);
+
+    // Move to the next question or go to result screen
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex(currentIndex + 1);
       setSelectedOption(null);
-      setTimer(120);
+      setTimer(120); // Reset timer for next question
     } else {
-      // Pass necessary data to ResultScreen
       navigation.navigate('Result', {
         score,
         totalQuestions: questions.length,
         correctAnswers,
         wrongAnswers,
         unanswered: questions.length - (correctAnswers + wrongAnswers),
-        topic: courseName
+        topic: courseName,
       });
     }
+  };
+
+  const handleTimeUp = () => {
+    handleNext();
   };
 
   const handleAppStateChange = (nextAppState) => {
@@ -123,7 +93,7 @@ const QuizScreen = () => {
         correctAnswers,
         wrongAnswers,
         unanswered: questions.length - (correctAnswers + wrongAnswers),
-        topic: courseName
+        topic: courseName,
       });
     }
     appState.current = nextAppState;
@@ -139,12 +109,18 @@ const QuizScreen = () => {
 
   return (
     <View style={styles.container}>
+      {/* Timer Component */}
+      <TimerComponent timer={timer} setTimer={setTimer} onTimeUp={handleTimeUp} />
+
       <QuestionCard
         questionData={questions[currentIndex]}
         selectedOption={selectedOption}
         onSelectOption={handleOptionSelect}
         timer={timer}
       />
+
+      {/* Navigation Button */}
+      <NavigationButtons onNext={handleNext} isNextDisabled={timer === 0} />
     </View>
   );
 };

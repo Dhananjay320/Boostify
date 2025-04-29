@@ -1,0 +1,168 @@
+[
+    {
+      "question": "Which of these is the correct syntax for defining a class in Java?",
+      "options": ["class ClassName {}", "class ClassName[] {}", "ClassName class {}", "class: ClassName {}"],
+      "answer": "class ClassName {}"
+    },
+    {
+      "question": "What is the default value of an instance variable in Java?",
+      "options": ["0", "null", "undefined", "NaN"],
+      "answer": "null"
+    },
+    {
+      "question": "Which of these is not a primitive data type in Java?",
+      "options": ["int", "float", "String", "char"],
+      "answer": "String"
+    },
+    {
+      "question": "What does JVM stand for?",
+      "options": ["Java Variable Machine", "Java Visual Machine", "Java Virtual Machine", "Java Value Machine"],
+      "answer": "Java Virtual Machine"
+    },
+    {
+      "question": "Which keyword is used to create a class in Java?",
+      "options": ["class", "object", "new", "create"],
+      "answer": "class"
+    },
+    {
+      "question": "What is the size of a char in Java?",
+      "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+      "answer": "16 bits"
+    },
+    {
+      "question": "Which of these is used to handle exceptions in Java?",
+      "options": ["try-catch", "catch-finally", "throw-throws", "if-else"],
+      "answer": "try-catch"
+    },
+    {
+      "question": "Which of the following is used to declare a constant in Java?",
+      "options": ["const", "final", "static", "immutable"],
+      "answer": "final"
+    },
+    {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": ["false", "true", "null", "undefined"],
+      "answer": "false"
+    },
+    {
+      "question": "Which of the following is used to read input from the user in Java?",
+      "options": ["Scanner", "InputStream", "BufferedReader", "Console"],
+      "answer": "Scanner"
+    },
+    {
+      "question": "Which of the following is not an access modifier in Java?",
+      "options": ["private", "public", "protected", "default"],
+      "answer": "default"
+    },
+    {
+      "question": "What is the purpose of the 'super' keyword in Java?",
+      "options": ["Refers to the current object", "Refers to the superclass", "Refers to a static method", "None of the above"],
+      "answer": "Refers to the superclass"
+    },
+    {
+      "question": "Which of these is true about Java?",
+      "options": ["Java is a compiled language", "Java is an interpreted language", "Java is both compiled and interpreted", "None of the above"],
+      "answer": "Java is both compiled and interpreted"
+    },
+    {
+      "question": "Which of the following is a valid declaration of a method in Java?",
+      "options": ["public void myMethod() {}", "void myMethod() {}", "void myMethod;", "public void myMethod;"],
+      "answer": "public void myMethod() {}"
+    },
+    {
+      "question": "What is the main purpose of the 'this' keyword in Java?",
+      "options": ["Refers to the current object", "Refers to the superclass", "Refers to a static method", "Refers to a global variable"],
+      "answer": "Refers to the current object"
+    },
+    {
+      "question": "Which of these is used for creating an array in Java?",
+      "options": ["new array[]", "int[] array", "array(int[])", "int array[]"],
+      "answer": "int[] array"
+    },
+    {
+      "question": "Which method is used to start a thread in Java?",
+      "options": ["start()", "run()", "init()", "execute()"],
+      "answer": "start()"
+    },
+    {
+      "question": "What is the difference between '==' and '.equals()' in Java?",
+      "options": ["'==' compares object references, '.equals()' compares object values", "'==' compares object values, '.equals()' compares object references", "'==' compares memory addresses, '.equals()' compares data", "No difference"],
+      "answer": "'==' compares object references, '.equals()' compares object values"
+    },
+    {
+      "question": "Which of the following interfaces does not belong to the Java Collections Framework?",
+      "options": ["List", "Set", "Queue", "Data"],
+      "answer": "Data"
+    },
+    {
+      "question": "Which of these is not an inheritance keyword in Java?",
+      "options": ["extends", "implements", "inherits", "super"],
+      "answer": "inherits"
+    },
+    {
+      "question": "Which type of method can be declared static in Java?",
+      "options": ["Only instance methods", "Only constructors", "Only class methods", "Any method"],
+      "answer": "Any method"
+    },
+    {
+      "question": "Which of the following is the correct way to create a thread in Java?",
+      "options": ["By implementing Runnable interface", "By extending Thread class", "Both A and B", "None of the above"],
+      "answer": "Both A and B"
+    },
+    {
+      "question": "What is the purpose of the 'static' keyword in Java?",
+      "options": ["Defines a method that can be accessed without an object", "Defines an instance variable", "Defines a constructor", "None of the above"],
+      "answer": "Defines a method that can be accessed without an object"
+    },
+    {
+      "question": "Which of the following is not a valid Java operator?",
+      "options": ["++", "--", "::", "&&"],
+      "answer": "::"
+    },
+    {
+      "question": "Which of these methods is used to find the length of a string in Java?",
+      "options": ["length()", "size()", "getLength()", "count()"],
+      "answer": "length()"
+    },
+    {
+      "question": "Which of the following is used to create an interface in Java?",
+      "options": ["interface", "class", "object", "function"],
+      "answer": "interface"
+    },
+    {
+      "question": "What is the default value of a byte variable in Java?",
+      "options": ["0", "null", "false", "undefined"],
+      "answer": "0"
+    },
+    {
+      "question": "Which of these is the superclass of all classes in Java?",
+      "options": ["Object", "Super", "Base", "Root"],
+      "answer": "Object"
+    },
+    {
+      "question": "Which of these exceptions is checked at compile time in Java?",
+      "options": ["RuntimeException", "IOException", "NullPointerException", "ArithmeticException"],
+      "answer": "IOException"
+    },
+    {
+      "question": "What is the 'finally' block used for in Java?",
+      "options": ["To handle exceptions", "To ensure execution of a block of code after try-catch", "To exit from the program", "None of the above"],
+      "answer": "To ensure execution of a block of code after try-catch"
+    },
+    {
+      "question": "Which of these is not a valid collection class in Java?",
+      "options": ["ArrayList", "LinkedList", "HashSet", "TreeNode"],
+      "answer": "TreeNode"
+    },
+    {
+      "question": "Which of these keywords is used to prevent inheritance in Java?",
+      "options": ["final", "static", "abstract", "protected"],
+      "answer": "final"
+    },
+    {
+      "question": "Which collection class is best for storing key-value pairs in Java?",
+      "options": ["ArrayList", "LinkedList", "HashMap", "TreeSet"],
+      "answer": "HashMap"
+    }
+  ]
+  

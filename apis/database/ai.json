@@ -1,0 +1,228 @@
+[
+    {
+      "question": "What is the primary goal of Artificial Intelligence?",
+      "options": ["To mimic human intelligence", "To increase computation speed", "To reduce data storage", "To improve data accuracy"],
+      "answer": "To mimic human intelligence"
+    },
+    {
+      "question": "Which of the following is a key concept of machine learning?",
+      "options": ["Data-driven learning", "Rule-based programming", "Manual coding", "Hard-coding algorithms"],
+      "answer": "Data-driven learning"
+    },
+    {
+      "question": "Which algorithm is used for supervised learning?",
+      "options": ["K-Means", "SVM", "PCA", "Reinforcement Learning"],
+      "answer": "SVM"
+    },
+    {
+      "question": "What is an example of unsupervised learning?",
+      "options": ["Linear Regression", "K-Means Clustering", "Logistic Regression", "Support Vector Machines"],
+      "answer": "K-Means Clustering"
+    },
+    {
+      "question": "Which of these is used for Natural Language Processing (NLP)?",
+      "options": ["TensorFlow", "spaCy", "PyTorch", "Scikit-learn"],
+      "answer": "spaCy"
+    },
+    {
+      "question": "What does the term 'reinforcement learning' refer to?",
+      "options": ["Learning from labeled data", "Learning by trial and error", "Learning from feedback", "Learning without any input data"],
+      "answer": "Learning by trial and error"
+    },
+    {
+      "question": "What does the term 'overfitting' refer to in machine learning?",
+      "options": ["Model is too simple", "Model is too complex and fits noise", "Model performs well on new data", "Model performs poorly on training data"],
+      "answer": "Model is too complex and fits noise"
+    },
+    {
+      "question": "Which of the following is a neural network architecture?",
+      "options": ["Convolutional Neural Networks (CNN)", "Support Vector Machines", "Random Forest", "K-Nearest Neighbors"],
+      "answer": "Convolutional Neural Networks (CNN)"
+    },
+    {
+      "question": "What is a decision tree used for in AI?",
+      "options": ["Classification", "Regression", "Clustering", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does 'Deep Learning' involve?",
+      "options": ["Shallow networks", "Single-layer networks", "Multiple-layer neural networks", "Reinforcement learning only"],
+      "answer": "Multiple-layer neural networks"
+    },
+    {
+      "question": "Which of the following is a popular activation function used in neural networks?",
+      "options": ["Sigmoid", "ReLU", "Tanh", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of these is a common method for training AI models?",
+      "options": ["Backpropagation", "Clustering", "Gradient Descent", "Both A and C"],
+      "answer": "Both A and C"
+    },
+    {
+      "question": "What does the term 'AI model generalization' mean?",
+      "options": ["Fitting a model perfectly to the training data", "Fitting a model to new, unseen data", "Overfitting to the training set", "None of the above"],
+      "answer": "Fitting a model to new, unseen data"
+    },
+    {
+      "question": "Which of the following is a technique used to prevent overfitting in machine learning?",
+      "options": ["Cross-validation", "Early stopping", "Regularization", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which method is used in AI for generating text based on input data?",
+      "options": ["Generative Adversarial Networks", "Markov Chains", "Recurrent Neural Networks", "Deep Q-Networks"],
+      "answer": "Recurrent Neural Networks"
+    },
+    {
+      "question": "Which AI technique is used for making decisions in an uncertain environment?",
+      "options": ["Reinforcement learning", "Supervised learning", "Unsupervised learning", "Evolutionary algorithms"],
+      "answer": "Reinforcement learning"
+    },
+    {
+      "question": "What does the term 'backpropagation' refer to in neural networks?",
+      "options": ["The process of updating weights using the error", "The initial training of the network", "The decision-making process", "None of the above"],
+      "answer": "The process of updating weights using the error"
+    },
+    {
+      "question": "Which AI approach uses evolutionary principles to solve optimization problems?",
+      "options": ["Genetic Algorithms", "Clustering", "Decision Trees", "K-Means"],
+      "answer": "Genetic Algorithms"
+    },
+    {
+      "question": "What is a major limitation of deep learning models?",
+      "options": ["Lack of interpretability", "Requires large datasets", "Slow training time", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the role of the loss function in machine learning?",
+      "options": ["To measure how well the model is performing", "To optimize the training speed", "To adjust hyperparameters", "To train the AI model"],
+      "answer": "To measure how well the model is performing"
+    },
+    {
+      "question": "Which of the following is NOT a type of machine learning?",
+      "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Reactive Learning"],
+      "answer": "Reactive Learning"
+    },
+    {
+      "question": "What does the term 'Natural Language Processing' (NLP) refer to?",
+      "options": ["Machine learning for text and speech", "Understanding images using AI", "Interpreting video data", "All of the above"],
+      "answer": "Machine learning for text and speech"
+    },
+    {
+      "question": "Which technique is commonly used to build chatbots?",
+      "options": ["Neural Networks", "Rule-based systems", "Support Vector Machines", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the role of the convolutional layer in Convolutional Neural Networks (CNNs)?",
+      "options": ["Extracts features from input data", "Performs classification", "Optimizes weights", "All of the above"],
+      "answer": "Extracts features from input data"
+    },
+    {
+      "question": "Which of the following is the key principle of reinforcement learning?",
+      "options": ["Exploration and exploitation", "Supervised learning", "Classification", "Regression"],
+      "answer": "Exploration and exploitation"
+    },
+    {
+      "question": "Which of the following algorithms is used for object detection in images?",
+      "options": ["YOLO", "Linear Regression", "K-Means", "SVM"],
+      "answer": "YOLO"
+    },
+    {
+      "question": "What does the term 'AI bias' refer to?",
+      "options": ["Errors due to incorrect data labeling", "Bias introduced by human developers", "Bias in decision-making algorithms", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which AI technique is used to classify images based on their contents?",
+      "options": ["Convolutional Neural Networks", "Decision Trees", "K-Nearest Neighbors", "SVM"],
+      "answer": "Convolutional Neural Networks"
+    },
+    {
+      "question": "What is the purpose of transfer learning in deep learning?",
+      "options": ["To use pre-trained models to solve new tasks", "To fine-tune models on a new task", "To apply learned knowledge to new domains", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of these is a popular Python library for implementing AI models?",
+      "options": ["NumPy", "TensorFlow", "Scikit-learn", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the 'dropout' technique in neural networks?",
+      "options": ["To prevent overfitting", "To speed up training", "To increase model complexity", "None of the above"],
+      "answer": "To prevent overfitting"
+    },
+    {
+      "question": "Which of the following is a common evaluation metric for classification models?",
+      "options": ["Accuracy", "Precision", "Recall", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does the term 'feature engineering' refer to?",
+      "options": ["Creating new features from existing data", "Selecting important features", "Removing irrelevant features", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of the following is a common optimization algorithm used in training neural networks?",
+      "options": ["Stochastic Gradient Descent", "Batch Gradient Descent", "Adam", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the 'softmax' function in neural networks?",
+      "options": ["To convert logits to probabilities", "To normalize data", "To perform feature scaling", "None of the above"],
+      "answer": "To convert logits to probabilities"
+    },
+    {
+      "question": "Which of these is a common challenge in AI?",
+      "options": ["Data quality", "Model interpretability", "Bias and fairness", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of hyperparameter tuning in machine learning?",
+      "options": ["To optimize model performance", "To reduce training time", "To increase model complexity", "None of the above"],
+      "answer": "To optimize model performance"
+    },
+    {
+      "question": "Which of the following is a common method for evaluating regression models?",
+      "options": ["Mean Absolute Error", "Mean Squared Error", "R-squared", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does the term 'ensemble learning' refer to?",
+      "options": ["Combining multiple models to improve performance", "Using a single model for prediction", "Training models on different datasets", "None of the above"],
+      "answer": "Combining multiple models to improve performance"
+    },
+    {
+      "question": "Which of the following is a common method for dimensionality reduction?",
+      "options": ["Principal Component Analysis (PCA)", "K-Means Clustering", "Decision Trees", "Random Forest"],
+      "answer": "Principal Component Analysis (PCA)"
+    },
+    {
+      "question": "What is the purpose of the 'confusion matrix' in machine learning?",
+      "options": ["To evaluate classification model performance", "To visualize data", "To optimize hyperparameters", "None of the above"],
+      "answer": "To evaluate classification model performance"
+    },
+    {
+      "question": "Which of these is a common method for feature selection?",
+      "options": ["Recursive Feature Elimination", "Random Forest Importance", "Lasso Regression", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the 'learning rate' in machine learning?",
+      "options": ["To control the speed of model training", "To adjust model complexity", "To optimize hyperparameters", "None of the above"],
+      "answer": "To control the speed of model training"
+    },
+    {
+      "question": "Which of the following is a common method for handling missing data?",
+      "options": ["Imputation", "Deletion", "Interpolation", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does the term 'data augmentation' refer to?",
+      "options": ["Creating new data from existing data", "Removing irrelevant data", "Normalizing data", "None of the above"],
+      "answer": "Creating new data from existing data"
+    }
+  ]
+  

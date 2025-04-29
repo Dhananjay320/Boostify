@@ -1,0 +1,323 @@
+[
+    {
+      "question": "What is the next number in the sequence: 2, 5, 10, 17, ___?",
+      "options": ["24", "26", "30", "34"],
+      "answer": "26"
+    },
+    {
+      "question": "If a train travels 60 miles per hour, how long will it take to travel 120 miles?",
+      "options": ["1 hour", "2 hours", "3 hours", "4 hours"],
+      "answer": "2 hours"
+    },
+    {
+      "question": "A box contains 6 red balls, 5 blue balls, and 4 green balls. What is the probability of picking a red ball?",
+      "options": ["6/15", "5/15", "4/15", "1/3"],
+      "answer": "6/15"
+    },
+    {
+      "question": "If the sum of three consecutive integers is 57, what is the middle integer?",
+      "options": ["18", "19", "20", "21"],
+      "answer": "19"
+    },
+    {
+      "question": "A car travels 120 kilometers in 2 hours. What is its average speed?",
+      "options": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "answer": "60 km/h"
+    },
+    {
+      "question": "If a shopkeeper sells an article for $80 and gains 20%, what is the cost price?",
+      "options": ["$60", "$65", "$70", "$75"],
+      "answer": "$66.67"
+    },
+    {
+      "question": "What is the area of a rectangle with a length of 8 cm and a width of 6 cm?",
+      "options": ["48 cm²", "50 cm²", "56 cm²", "54 cm²"],
+      "answer": "48 cm²"
+    },
+    {
+      "question": "What is the sum of the angles in a triangle?",
+      "options": ["90°", "180°", "270°", "360°"],
+      "answer": "180°"
+    },
+    {
+      "question": "If 4x = 32, what is the value of x?",
+      "options": ["4", "6", "8", "10"],
+      "answer": "8"
+    },
+    {
+      "question": "What is the perimeter of a square with a side length of 5 cm?",
+      "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+      "answer": "20 cm"
+    },
+    {
+      "question": "A sum of money doubles in 10 years. What will be the compound interest for 20 years?",
+      "options": ["Double the amount", "Triple the amount", "Four times the amount", "Five times the amount"],
+      "answer": "Four times the amount"
+    },
+    {
+      "question": "If a person invests $1000 at 5% annual interest, how much interest will they earn in 2 years?",
+      "options": ["$50", "$100", "$200", "$150"],
+      "answer": "$100"
+    },
+    {
+      "question": "If a number is divisible by 3 and 4, what is the smallest possible number it could be divisible by?",
+      "options": ["12", "24", "36", "48"],
+      "answer": "12"
+    },
+    {
+      "question": "What is the median of the following set of numbers: 3, 5, 8, 12, 15?",
+      "options": ["5", "8", "10", "12"],
+      "answer": "8"
+    },
+    {
+      "question": "What is the value of 8 raised to the power of 3?",
+      "options": ["64", "128", "512", "1024"],
+      "answer": "512"
+    },
+    {
+      "question": "A man can row 5 km/h in still water. If the current flows at 1 km/h, what is his effective speed downstream?",
+      "options": ["5 km/h", "6 km/h", "4 km/h", "7 km/h"],
+      "answer": "6 km/h"
+    },
+    {
+      "question": "What is the volume of a cube with a side length of 4 cm?",
+      "options": ["16 cm³", "32 cm³", "64 cm³", "128 cm³"],
+      "answer": "64 cm³"
+    },
+    {
+      "question": "A coin is tossed 3 times. What is the probability of getting exactly two heads?",
+      "options": ["1/8", "1/4", "3/8", "1/2"],
+      "answer": "3/8"
+    },
+    {
+      "question": "If a sum of money grows to 4 times its value in 2 years, what will be its value in 5 years at the same rate?",
+      "options": ["8 times the value", "10 times the value", "12 times the value", "16 times the value"],
+      "answer": "16 times the value"
+    },
+    {
+      "question": "How many sides does a dodecagon have?",
+      "options": ["8", "10", "12", "14"],
+      "answer": "12"
+    },
+    {
+      "question": "What is the mode of the following data set: 1, 3, 3, 5, 7, 8?",
+      "options": ["1", "3", "5", "7"],
+      "answer": "3"
+    },
+    {
+      "question": "What is the area of a circle with a radius of 7 cm? (Use π = 22/7)",
+      "options": ["49 cm²", "44 cm²", "154 cm²", "154.5 cm²"],
+      "answer": "154 cm²"
+    },
+    {
+      "question": "What is the value of x in the equation 3x + 4 = 19?",
+      "options": ["4", "5", "6", "7"],
+      "answer": "5"
+    },
+    {
+      "question": "If 15% of a number is 30, what is the number?",
+      "options": ["150", "200", "250", "300"],
+      "answer": "200"
+    },
+    {
+      "question": "The ratio of the ages of two brothers is 4:5. If the older brother is 25 years old, how old is the younger brother?",
+      "options": ["20 years", "18 years", "22 years", "24 years"],
+      "answer": "20 years"
+    },
+    {
+      "question": "If a person walks 5 km in 1 hour, how long will it take him to walk 45 km?",
+      "options": ["8 hours", "9 hours", "10 hours", "12 hours"],
+      "answer": "9 hours"
+    },
+    {
+      "question": "What is the value of 2⁴?",
+      "options": ["6", "8", "16", "32"],
+      "answer": "16"
+    },
+    {
+      "question": "If the cost price of 15 items is equal to the selling price of 12 items, what is the percentage profit?",
+      "options": ["20%", "25%", "30%", "35%"],
+      "answer": "25%"
+    },
+    {
+      "question": "If the perimeter of a rectangle is 30 meters and its length is 8 meters, what is the width?",
+      "options": ["7 meters", "6 meters", "5 meters", "4 meters"],
+      "answer": "7 meters"
+    },
+    {
+      "question": "A sum of money triples in 5 years. What is the annual compound interest rate?",
+      "options": ["20%", "25%", "30%", "35%"],
+      "answer": "25%"
+    },
+    {
+      "question": "What is the average of the first 10 prime numbers?",
+      "options": ["4.5", "5", "6", "7"],
+      "answer": "5"
+    },
+    {
+      "question": "What is the least common multiple of 12 and 15?",
+      "options": ["30", "60", "75", "90"],
+      "answer": "60"
+    },
+    {
+      "question": "What is the value of 12 × 12 + 15 × 15?",
+      "options": ["324", "289", "225", "180"],
+      "answer": "324"
+    },
+    {
+      "question": "What is the distance traveled by a car moving at a speed of 60 km/h for 3 hours?",
+      "options": ["120 km", "150 km", "180 km", "200 km"],
+      "answer": "180 km"
+    },
+    {
+      "question": "If a triangle has sides of lengths 3 cm, 4 cm, and 5 cm, what type of triangle is it?",
+      "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled"],
+      "answer": "Right-angled"
+    },
+    {
+      "question": "What is the value of sin(90°)?",
+      "options": ["0", "1", "-1", "undefined"],
+      "answer": "1"
+    },
+    {
+      "question": "If a car travels 240 km in 3 hours, what is its average speed?",
+      "options": ["60 km/h", "70 km/h", "80 km/h", "90 km/h"],
+      "answer": "80 km/h"
+    },
+    {
+      "question": "What is the sum of the first 10 natural numbers?",
+      "options": ["45", "50", "55", "60"],
+      "answer": "55"
+    },
+    {
+      "question": "If a rectangle has a length of 10 cm and a width of 5 cm, what is its area?",
+      "options": ["50 cm²", "55 cm²", "60 cm²", "65 cm²"],
+      "answer": "50 cm²"
+    },
+    {
+      "question": "What is the value of 5! (5 factorial)?",
+      "options": ["120", "100", "60", "30"],
+      "answer": "120"
+    },
+    {
+      "question": "If a person can complete a task in 10 hours, how long will it take 5 people to complete the same task?",
+      "options": ["2 hours", "4 hours", "5 hours", "10 hours"],
+      "answer": "2 hours"
+    },
+    {
+      "question": "What is the probability of rolling a sum of 7 with two dice?",
+      "options": ["1/6", "1/12", "1/36", "1/18"],
+      "answer": "1/6"
+    },
+    {
+      "question": "If a triangle has angles of 60°, 70°, and x°, what is the value of x?",
+      "options": ["40°", "50°", "60°", "70°"],
+      "answer": "50°"
+    },
+    {
+      "question": "What is the value of log(100) to the base 10?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "question": "If a person invests $2000 at an interest rate of 5% per annum, how much interest will they earn in 3 years?",
+      "options": ["$300", "$400", "$500", "$600"],
+      "answer": "$300"
+    },
+    {
+      "question": "What is the area of a triangle with a base of 10 cm and a height of 5 cm?",
+      "options": ["25 cm²", "30 cm²", "35 cm²", "40 cm²"],
+      "answer": "25 cm²"
+    },
+    {
+      "question": "If a car travels 150 km in 2 hours, what is its average speed?",
+      "options": ["60 km/h", "70 km/h", "75 km/h", "80 km/h"],
+      "answer": "75 km/h"
+    },
+    {
+      "question": "What is the value of (3 + 5) × (2 - 1)?",
+      "options": ["8", "10", "12", "14"],
+      "answer": "8"
+    },
+    {
+      "question": "If a person can read 30 pages in an hour, how many pages can they read in 4 hours?",
+      "options": ["90 pages", "120 pages", "150 pages", "180 pages"],
+      "answer": "120 pages"
+    },
+    {
+      "question": "What is the value of x in the equation 2x + 3 = 11?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "question": "If a sum of money is divided among 3 people in the ratio 2:3:5, what fraction of the total amount does the first person receive?",
+      "options": ["1/10", "2/10", "3/10", "4/10"],
+      "answer": "2/10"
+    },
+    {
+      "question": "What is the value of 7 × (8 + 2) - 5?",
+      "options": ["60", "65", "70", "75"],
+      "answer": "65"
+    },
+    {
+      "question": "If a person can complete a task in 12 hours, how long will it take 4 people to complete the same task?",
+      "options": ["3 hours", "4 hours", "5 hours", "6 hours"],
+      "answer": "3 hours"
+    },
+    {
+      "question": "What is the value of sin(30°)?",
+      "options": ["0.5", "0.6", "0.7", "0.8"],
+      "answer": "0.5"
+    },
+    {
+      "question": "If a car travels at a speed of 80 km/h for 2.5 hours, how far does it travel?",
+      "options": ["150 km", "200 km", "250 km", "300 km"],
+      "answer": "200 km"
+    },
+    {
+      "question": "What is the value of 3² + 4²?",
+      "options": ["7", "12", "25", "49"],
+      "answer": "25"
+    },
+    {
+      "question": "If a person can run 10 km in 1 hour, how long will it take to run 50 km?",
+      "options": ["4 hours", "5 hours", "6 hours", "7 hours"],
+      "answer": "5 hours"
+    },
+    {
+      "question": "What is the area of a circle with a radius of 3 cm? (Use π = 3.14)",
+      "options": ["28.26 cm²", "30.14 cm²", "31.42 cm²", "32.56 cm²"],
+      "answer": "28.26 cm²"
+    },
+    {
+      "question": "If a sum of money is divided among 4 people in the ratio 1:2:3:4, what fraction of the total amount does the third person receive?",
+      "options": ["1/10", "2/10", "3/10", "4/10"],
+      "answer": "3/10"
+    },
+    {
+      "question": "What is the value of (5 + 3) × (2 - 1)?",
+      "options": ["8", "10", "12", "14"],
+      "answer": "8"
+    },
+    {
+      "question": "If a person can read 60 pages in an hour, how many pages can they read in 3 hours?",
+      "options": ["120 pages", "150 pages", "180 pages", "200 pages"],
+      "answer": "180 pages"
+    },
+    {
+      "question": "What is the value of x in the equation 3x - 5 = 16?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "question": "If a sum of money is divided among 5 people in the ratio 1:2:3:4:5, what fraction of the total amount does the fourth person receive?",
+      "options": ["1/15", "2/15", "3/15", "4/15"],
+      "answer": "4/15"
+    },
+    {
+      "question": "What is the value of 9 × (6 + 4) - 5?",
+      "options": ["85", "90", "95", "100"],
+      "answer": "95"
+    }
+  ]
+  

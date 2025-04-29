@@ -1,0 +1,209 @@
+
+    [
+        {
+          "question": "What does the term 'Data Science' primarily involve?",
+          "options": ["Data cleaning and analysis", "Data collection only", "Data visualization", "Data entry"],
+          "answer": "Data cleaning and analysis"
+        },
+        {
+          "question": "Which of the following is an example of a supervised learning algorithm?",
+          "options": ["K-Means", "Decision Trees", "PCA", "KNN"],
+          "answer": "Decision Trees"
+        },
+        {
+          "question": "What is the purpose of feature scaling in machine learning?",
+          "options": ["To standardize the features", "To minimize error", "To increase the training speed", "To make the data compatible with algorithms"],
+          "answer": "To standardize the features"
+        },
+        {
+          "question": "Which of the following is used for dimensionality reduction in Data Science?",
+          "options": ["K-Means", "PCA", "Linear Regression", "Random Forest"],
+          "answer": "PCA"
+        },
+        {
+          "question": "Which of these is a popular tool for Data Science?",
+          "options": ["Java", "MATLAB", "TensorFlow", "Excel"],
+          "answer": "TensorFlow"
+        },
+        {
+          "question": "What is overfitting in machine learning?",
+          "options": ["When the model generalizes well", "When the model performs poorly", "When the model fits too well to training data", "When the model is undertrained"],
+          "answer": "When the model fits too well to training data"
+        },
+        {
+          "question": "Which algorithm is used for classification problems?",
+          "options": ["K-Means", "Decision Trees", "KNN", "Linear Regression"],
+          "answer": "KNN"
+        },
+        {
+          "question": "Which of the following metrics is used to evaluate classification models?",
+          "options": ["Mean Squared Error", "Confusion Matrix", "R-squared", "Log-Loss"],
+          "answer": "Confusion Matrix"
+        },
+        {
+          "question": "What is the primary goal of data visualization?",
+          "options": ["To summarize the data", "To process the data", "To remove noise", "To make data more understandable"],
+          "answer": "To make data more understandable"
+        },
+        {
+          "question": "Which of these is a type of unsupervised learning?",
+          "options": ["K-Means Clustering", "Linear Regression", "Logistic Regression", "SVM"],
+          "answer": "K-Means Clustering"
+        },
+        {
+          "question": "Which Python library is commonly used for data analysis?",
+          "options": ["Matplotlib", "Pandas", "NumPy", "TensorFlow"],
+          "answer": "Pandas"
+        },
+        {
+          "question": "Which of the following is used for missing data imputation in Data Science?",
+          "options": ["Mean/Median Imputation", "Linear Regression", "K-Means", "Neural Networks"],
+          "answer": "Mean/Median Imputation"
+        },
+        {
+          "question": "Which of the following techniques is used for supervised learning?",
+          "options": ["K-Means", "Decision Trees", "PCA", "DBSCAN"],
+          "answer": "Decision Trees"
+        },
+        {
+          "question": "What does a confusion matrix provide in a classification problem?",
+          "options": ["True positives, false positives, true negatives, false negatives", "Accuracy and precision", "R-squared value", "Data normalization details"],
+          "answer": "True positives, false positives, true negatives, false negatives"
+        },
+        {
+          "question": "What is the purpose of cross-validation in machine learning?",
+          "options": ["To split the data into training and testing sets", "To tune the model parameters", "To evaluate the model's performance", "To increase the model complexity"],
+          "answer": "To evaluate the model's performance"
+        },
+        {
+          "question": "Which of the following is a method to handle imbalanced datasets?",
+          "options": ["Oversampling", "Undersampling", "SMOTE", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the function of an activation function in neural networks?",
+          "options": ["To prevent overfitting", "To introduce non-linearity", "To reduce error", "To normalize data"],
+          "answer": "To introduce non-linearity"
+        },
+        {
+          "question": "What is the output of applying the sigmoid function to a value?",
+          "options": ["A value between 0 and 1", "A value between -1 and 1", "A value between 0 and 10", "A binary value"],
+          "answer": "A value between 0 and 1"
+        },
+        {
+          "question": "Which of these is used for clustering data?",
+          "options": ["K-Means", "Logistic Regression", "Linear Regression", "SVM"],
+          "answer": "K-Means"
+        },
+        {
+          "question": "Which of the following is the main difference between K-Means and DBSCAN?",
+          "options": ["K-Means requires pre-defined clusters", "DBSCAN is faster than K-Means", "K-Means handles noise better", "K-Means uses density-based clustering"],
+          "answer": "K-Means requires pre-defined clusters"
+        },
+        {
+          "question": "What does PCA stand for?",
+          "options": ["Principal Component Analysis", "Process Component Analysis", "Principal Cluster Analysis", "Primary Cluster Analysis"],
+          "answer": "Principal Component Analysis"
+        },
+        {
+          "question": "Which of the following is a method for regression analysis?",
+          "options": ["Logistic Regression", "Decision Trees", "Random Forest", "Linear Regression"],
+          "answer": "Linear Regression"
+        },
+        {
+          "question": "What does 'bagging' stand for in ensemble learning?",
+          "options": ["Bootstrap Aggregating", "Binary Aggregating", "Bagged Algorithm", "Balanced Aggregation"],
+          "answer": "Bootstrap Aggregating"
+        },
+        {
+          "question": "Which of the following is used for model selection in Data Science?",
+          "options": ["Train-Test Split", "Cross-Validation", "Bootstrapping", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the purpose of 'early stopping' in training a neural network?",
+          "options": ["To avoid overfitting", "To increase model accuracy", "To decrease the training time", "To prevent underfitting"],
+          "answer": "To avoid overfitting"
+        },
+        {
+          "question": "Which of the following is a key step in data preprocessing?",
+          "options": ["Feature Scaling", "Model Training", "Hyperparameter Tuning", "Algorithm Selection"],
+          "answer": "Feature Scaling"
+        },
+        {
+          "question": "What is the purpose of the ROC curve in evaluating model performance?",
+          "options": ["To evaluate accuracy", "To evaluate precision", "To evaluate the trade-off between sensitivity and specificity", "To evaluate model speed"],
+          "answer": "To evaluate the trade-off between sensitivity and specificity"
+        },
+        {
+          "question": "Which of the following is an example of an unsupervised learning algorithm?",
+          "options": ["Logistic Regression", "K-Means Clustering", "Decision Trees", "Linear Regression"],
+          "answer": "K-Means Clustering"
+        },
+        {
+          "question": "What does the term 'bias-variance trade-off' refer to in machine learning?",
+          "options": ["The balance between bias and variance to minimize model error", "The trade-off between training time and accuracy", "The trade-off between learning rate and model size", "The balance between model complexity and data quantity"],
+          "answer": "The balance between bias and variance to minimize model error"
+        },
+        {
+          "question": "Which of the following is a key assumption of linear regression?",
+          "options": ["Data follows a normal distribution", "There is a linear relationship between variables", "All features are independent", "All features are normally distributed"],
+          "answer": "There is a linear relationship between variables"
+        },
+        {
+          "question": "What is the purpose of the 'train-test split' in machine learning?",
+          "options": ["To evaluate model performance", "To preprocess data", "To visualize data", "To clean data"],
+          "answer": "To evaluate model performance"
+        },
+        {
+          "question": "Which of the following is a common method for feature selection?",
+          "options": ["Recursive Feature Elimination", "K-Means Clustering", "PCA", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the main purpose of using a validation set?",
+          "options": ["To tune hyperparameters", "To train the model", "To test the model", "To visualize data"],
+          "answer": "To tune hyperparameters"
+        },
+        {
+          "question": "Which of the following is a common method for handling categorical variables?",
+          "options": ["One-Hot Encoding", "Label Encoding", "Ordinal Encoding", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the purpose of regularization in machine learning?",
+          "options": ["To prevent overfitting", "To increase model complexity", "To reduce training time", "To improve data quality"],
+          "answer": "To prevent overfitting"
+        },
+        {
+          "question": "Which of the following is a common evaluation metric for regression models?",
+          "options": ["Accuracy", "Precision", "Mean Absolute Error", "F1 Score"],
+          "answer": "Mean Absolute Error"
+        },
+        {
+          "question": "What is the purpose of the 'dropout' technique in neural networks?",
+          "options": ["To prevent overfitting", "To increase model complexity", "To reduce training time", "To improve data quality"],
+          "answer": "To prevent overfitting"
+        },
+        {
+          "question": "Which of the following is a common method for hyperparameter tuning?",
+          "options": ["Grid Search", "Random Search", "Bayesian Optimization", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the purpose of the 'learning rate' in machine learning?",
+          "options": ["To control the speed of learning", "To control the model complexity", "To control the data quality", "To control the training time"],
+          "answer": "To control the speed of learning"
+        },
+        {
+          "question": "Which of the following is a common method for data normalization?",
+          "options": ["Min-Max Scaling", "Z-Score Normalization", "Log Transformation", "All of the above"],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is the purpose of the 'batch size' in training a neural network?",
+          "options": ["To control the number of samples processed at once", "To control the model complexity", "To control the learning rate", "To control the training time"],
+          "answer": "To control the number of samples processed at once"
+        }
+      ]
+      

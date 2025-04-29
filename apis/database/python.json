@@ -1,0 +1,218 @@
+[
+    {
+      "question": "Which of the following is the correct way to create a variable in Python?",
+      "options": ["var = 10", "var: int = 10", "int var = 10", "variable = 10"],
+      "answer": "var = 10"
+    },
+    {
+      "question": "What is the output of 'print(2 ** 3)' in Python?",
+      "options": ["6", "8", "9", "Error"],
+      "answer": "8"
+    },
+    {
+      "question": "Which of these is a mutable data type in Python?",
+      "options": ["Tuple", "String", "List", "Set"],
+      "answer": "List"
+    },
+    {
+      "question": "Which method is used to add an element at the end of a list in Python?",
+      "options": ["append()", "insert()", "extend()", "add()"],
+      "answer": "append()"
+    },
+    {
+      "question": "Which of these is used for defining a function in Python?",
+      "options": ["function", "def", "func", "defining"],
+      "answer": "def"
+    },
+    {
+      "question": "What is the output of 'print(type(5))' in Python?",
+      "options": ["<class 'int'>", "<type 'int'>", "int", "Error"],
+      "answer": "<class 'int'>"
+    },
+    {
+      "question": "Which of these is used to handle exceptions in Python?",
+      "options": ["try-except", "try-catch", "error-catch", "throw-catch"],
+      "answer": "try-except"
+    },
+    {
+      "question": "Which of the following is not a valid Python operator?",
+      "options": ["+", "-", "*", "==="],
+      "answer": "==="
+    },
+    {
+      "question": "What will 'print(1 == 1.0)' output in Python?",
+      "options": ["True", "False", "Error", "None"],
+      "answer": "True"
+    },
+    {
+      "question": "What is the purpose of the 'self' keyword in Python?",
+      "options": ["Refers to the class", "Refers to the instance", "Refers to the function", "None of the above"],
+      "answer": "Refers to the instance"
+    },
+    {
+      "question": "Which function is used to get the length of a string in Python?",
+      "options": ["size()", "count()", "len()", "length()"],
+      "answer": "len()"
+    },
+    {
+      "question": "What does the 'break' statement do in Python?",
+      "options": ["Exits the loop", "Continues the loop", "Stops the function", "Stops the program"],
+      "answer": "Exits the loop"
+    },
+    {
+      "question": "Which of these is not a valid Python loop?",
+      "options": ["for", "while", "do-while", "repeat"],
+      "answer": "do-while"
+    },
+    {
+      "question": "Which of these methods is used to join two lists in Python?",
+      "options": ["merge()", "extend()", "concat()", "append()"],
+      "answer": "extend()"
+    },
+    {
+      "question": "What does the 'continue' statement do in Python?",
+      "options": ["Exits the loop", "Skips to the next iteration", "Stops the function", "None of the above"],
+      "answer": "Skips to the next iteration"
+    },
+    {
+      "question": "Which Python module is used for mathematical operations?",
+      "options": ["math", "maths", "num", "statistics"],
+      "answer": "math"
+    },
+    {
+      "question": "Which of these is the correct syntax for a lambda function in Python?",
+      "options": ["lambda x: x + 1", "def lambda x: x + 1", "lambda x -> x + 1", "def(x): lambda x + 1"],
+      "answer": "lambda x: x + 1"
+    },
+    {
+      "question": "Which of these is a built-in Python data structure?",
+      "options": ["Array", "Set", "List", "Vector"],
+      "answer": "List"
+    },
+    {
+      "question": "What is the result of 'print('Python'[::-1])' in Python?",
+      "options": ["Python", "nohtyP", "Error", "None"],
+      "answer": "nohtyP"
+    },
+    {
+      "question": "What is the purpose of the 'with' statement in Python?",
+      "options": ["To open files", "To handle exceptions", "To define functions", "To create classes"],
+      "answer": "To open files"
+    },
+    {
+      "question": "Which of these is used to define a class in Python?",
+      "options": ["class", "def", "function", "object"],
+      "answer": "class"
+    },
+    {
+      "question": "Which of these methods is used to remove an item from a list in Python?",
+      "options": ["pop()", "remove()", "delete()", "clear()"],
+      "answer": "remove()"
+    },
+    {
+      "question": "Which of the following is a valid string method in Python?",
+      "options": ["replace()", "insert()", "extend()", "add()"],
+      "answer": "replace()"
+    },
+    {
+      "question": "Which of these operators is used for exponentiation in Python?",
+      "options": ["^", "**", "exp", "pow"],
+      "answer": "**"
+    },
+    {
+      "question": "Which function is used to get user input in Python?",
+      "options": ["input()", "read()", "scanf()", "get()"],
+      "answer": "input()"
+    },
+    {
+      "question": "Which of these is a valid Python dictionary method?",
+      "options": ["add()", "update()", "insert()", "append()"],
+      "answer": "update()"
+    },
+    {
+      "question": "What will 'print(3 * 'Python')' output in Python?",
+      "options": ["PythonPythonPython", "Error", "Python", "None"],
+      "answer": "PythonPythonPython"
+    },
+    {
+      "question": "What is the result of 'print(2 == 2 == 2)' in Python?",
+      "options": ["True", "False", "Error", "None"],
+      "answer": "True"
+    },
+    {
+      "question": "Which of these is not a valid Python exception?",
+      "options": ["ValueError", "NameError", "TypeError", "ArrayError"],
+      "answer": "ArrayError"
+    },
+    {
+      "question": "Which of these is used to install packages in Python?",
+      "options": ["pip", "install", "pkg", "package"],
+      "answer": "pip"
+    },
+    {
+      "question": "Which function is used to open a file in Python?",
+      "options": ["open()", "read()", "write()", "file()"],
+      "answer": "open()"
+    },
+    {
+      "question": "What does the 'is' operator do in Python?",
+      "options": ["Compares values", "Compares memory addresses", "Compares objects", "Checks for equality"],
+      "answer": "Compares memory addresses"
+    },
+    {
+      "question": "Which of these is a valid way to create a tuple in Python?",
+      "options": ["()", "[]", "{}", "<>"],
+      "answer": "()"
+    },
+    {
+      "question": "What is the output of 'print(0.1 + 0.2 == 0.3)' in Python?",
+      "options": ["True", "False", "Error", "None"],
+      "answer": "False"
+    },
+    {
+      "question": "Which of these is not a valid Python keyword?",
+      "options": ["def", "class", "return", "function"],
+      "answer": "function"
+    },
+    {
+      "question": "Which of these is used to create a virtual environment in Python?",
+      "options": ["venv", "env", "virtualenv", "pyenv"],
+      "answer": "venv"
+    },
+    {
+      "question": "What is the output of 'print([1, 2] + [3, 4])' in Python?",
+      "options": ["[1, 2, 3, 4]", "[1, 2] + [3, 4]", "[1, 2, 3] + [4]", "[1, 2] * [3, 4]"],
+      "answer": "[1, 2, 3, 4]"
+    },
+    {
+      "question": "Which of these is used to format strings in Python?",
+      "options": ["format()", "f-string", "%", "string.format()"],
+      "answer": "f-string"
+    },
+    {
+      "question": "What is the output of 'print(5 // 2)' in Python?",
+      "options": ["2.5", "2", "3", "Error"],
+      "answer": "2"
+    },
+    {
+      "question": "Which of these is not a valid Python data type?",
+      "options": ["int", "float", "str", "char"],
+      "answer": "char"
+    },
+    {
+      "question": "Which of these is used to create a set in Python?",
+      "options": ["{}", "[]", "()", "<>"],
+      "answer": "{}"
+    },
+    {
+      "question": "What is the output of 'print(1, 2, 3, sep='-')' in Python?",
+      "options": ["1-2-3", "1 2 3", "1, 2, 3", "Error"],
+      "answer": "1-2-3"
+    },
+    {
+      "question": "Which of these is not a valid Python loop control statement?",
+      "options": ["break", "continue", "exit", "pass"],
+      "answer": "exit"
+    }
+  ]
+  

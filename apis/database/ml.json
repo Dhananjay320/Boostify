@@ -1,0 +1,288 @@
+[
+    {
+      "question": "What is the primary goal of Machine Learning?",
+      "options": ["To automate repetitive tasks", "To make predictions from data", "To manually classify data", "To store large datasets"],
+      "answer": "To make predictions from data"
+    },
+    {
+      "question": "Which of these is an example of supervised learning?",
+      "options": ["K-Means Clustering", "Linear Regression", "Principal Component Analysis", "Reinforcement Learning"],
+      "answer": "Linear Regression"
+    },
+    {
+      "question": "What does the term 'classification' mean in machine learning?",
+      "options": ["Predicting continuous values", "Predicting categorical values", "Grouping similar data", "Sorting data in order"],
+      "answer": "Predicting categorical values"
+    },
+    {
+      "question": "Which algorithm is used for classification tasks?",
+      "options": ["K-Means", "Logistic Regression", "K-Nearest Neighbors", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does 'overfitting' mean in machine learning?",
+      "options": ["The model performs well on new data", "The model performs poorly on both training and test data", "The model performs well only on the training data", "The model is too simple"],
+      "answer": "The model performs well only on the training data"
+    },
+    {
+      "question": "Which of the following is an example of unsupervised learning?",
+      "options": ["Decision Trees", "Support Vector Machines", "K-Means Clustering", "Linear Regression"],
+      "answer": "K-Means Clustering"
+    },
+    {
+      "question": "What is a decision tree used for in machine learning?",
+      "options": ["Classification", "Regression", "Clustering", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of the following is a type of regression model?",
+      "options": ["Linear Regression", "K-Means Clustering", "Logistic Regression", "Support Vector Machine"],
+      "answer": "Linear Regression"
+    },
+    {
+      "question": "Which machine learning algorithm is based on the concept of finding a hyperplane?",
+      "options": ["Logistic Regression", "Decision Trees", "Support Vector Machines", "K-Nearest Neighbors"],
+      "answer": "Support Vector Machines"
+    },
+    {
+      "question": "Which metric is used to evaluate classification models?",
+      "options": ["Mean Squared Error", "Accuracy", "Root Mean Squared Error", "R-squared"],
+      "answer": "Accuracy"
+    },
+    {
+      "question": "What is the purpose of cross-validation in machine learning?",
+      "options": ["To prevent overfitting", "To evaluate model performance", "To split data into training and testing sets", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which technique can be used to prevent overfitting?",
+      "options": ["Cross-validation", "Pruning", "Regularization", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of the following is a distance-based algorithm used in machine learning?",
+      "options": ["K-Nearest Neighbors", "Decision Trees", "Naive Bayes", "Logistic Regression"],
+      "answer": "K-Nearest Neighbors"
+    },
+    {
+      "question": "What does the term 'feature engineering' mean in machine learning?",
+      "options": ["Creating new data features", "Choosing the right model", "Cleaning the data", "None of the above"],
+      "answer": "Creating new data features"
+    },
+    {
+      "question": "Which method is used for dimensionality reduction?",
+      "options": ["Principal Component Analysis", "K-Means Clustering", "Decision Trees", "Random Forest"],
+      "answer": "Principal Component Analysis"
+    },
+    {
+      "question": "Which of the following algorithms is used for clustering tasks?",
+      "options": ["K-Means", "Logistic Regression", "Linear Regression", "Support Vector Machines"],
+      "answer": "K-Means"
+    },
+    {
+      "question": "What is the bias-variance tradeoff in machine learning?",
+      "options": ["The balance between the model's complexity and its performance", "The balance between training and testing data", "The balance between underfitting and overfitting", "None of the above"],
+      "answer": "The balance between underfitting and overfitting"
+    },
+    {
+      "question": "What does the term 'bagging' refer to in ensemble methods?",
+      "options": ["Bootstrap aggregating", "Boosting", "Stacking", "Random forest"],
+      "answer": "Bootstrap aggregating"
+    },
+    {
+      "question": "Which ensemble method combines multiple weak learners to create a strong learner?",
+      "options": ["Random Forest", "Boosting", "Bagging", "K-Nearest Neighbors"],
+      "answer": "Boosting"
+    },
+    {
+      "question": "Which of the following is a supervised learning algorithm?",
+      "options": ["K-Means Clustering", "Linear Regression", "Principal Component Analysis", "None of the above"],
+      "answer": "Linear Regression"
+    },
+    {
+      "question": "Which of the following is the correct order of steps in machine learning?",
+      "options": ["Model Training, Data Collection, Data Preprocessing", "Data Preprocessing, Data Collection, Model Training", "Data Collection, Data Preprocessing, Model Training", "Model Training, Data Preprocessing, Data Collection"],
+      "answer": "Data Collection, Data Preprocessing, Model Training"
+    },
+    {
+      "question": "Which machine learning algorithm is used to predict a category label?",
+      "options": ["Logistic Regression", "K-Means Clustering", "Linear Regression", "All of the above"],
+      "answer": "Logistic Regression"
+    },
+    {
+      "question": "Which of these is a type of unsupervised learning?",
+      "options": ["K-Nearest Neighbors", "Support Vector Machine", "Principal Component Analysis", "Logistic Regression"],
+      "answer": "Principal Component Analysis"
+    },
+    {
+      "question": "What is the main difference between supervised and unsupervised learning?",
+      "options": ["Supervised learning requires labeled data, unsupervised learning does not", "Unsupervised learning is faster than supervised learning", "Supervised learning uses unlabeled data", "Unsupervised learning requires labeled data"],
+      "answer": "Supervised learning requires labeled data, unsupervised learning does not"
+    },
+    {
+      "question": "Which of the following is an example of a reinforcement learning problem?",
+      "options": ["Stock market prediction", "Robot navigation", "Clustering customers", "None of the above"],
+      "answer": "Robot navigation"
+    },
+    {
+      "question": "Which algorithm is typically used for classification problems?",
+      "options": ["Logistic Regression", "K-Means Clustering", "Linear Regression", "Principal Component Analysis"],
+      "answer": "Logistic Regression"
+    },
+    {
+      "question": "What is 'normalization' in machine learning?",
+      "options": ["Adjusting data to a common scale", "Transforming data into binary", "Sorting data based on frequency", "Removing outliers"],
+      "answer": "Adjusting data to a common scale"
+    },
+    {
+      "question": "Which of the following is a popular Python library for machine learning?",
+      "options": ["Pandas", "NumPy", "Scikit-learn", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the training set in machine learning?",
+      "options": ["To evaluate the performance of the model", "To test the model on unseen data", "To fit the model to data", "None of the above"],
+      "answer": "To fit the model to data"
+    },
+    {
+      "question": "What does 'hyperparameter tuning' refer to in machine learning?",
+      "options": ["Choosing the right model for the task", "Optimizing model parameters to improve performance", "Collecting data", "Training a model from scratch"],
+      "answer": "Optimizing model parameters to improve performance"
+    },
+    {
+      "question": "Which of the following is a common loss function used for regression tasks?",
+      "options": ["Cross-Entropy", "Mean Squared Error", "Hinge Loss", "Log Loss"],
+      "answer": "Mean Squared Error"
+    },
+    {
+      "question": "What is the purpose of feature scaling in machine learning?",
+      "options": ["To improve model performance", "To reduce the number of features", "To visualize data", "None of the above"],
+      "answer": "To improve model performance"
+    },
+    {
+      "question": "Which of the following is a common evaluation metric for regression models?",
+      "options": ["Accuracy", "Precision", "Recall", "R-squared"],
+      "answer": "R-squared"
+    },
+    {
+      "question": "What is the purpose of a confusion matrix?",
+      "options": ["To visualize model performance", "To evaluate classification models", "To compare different models", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which of the following is a type of neural network?",
+      "options": ["Convolutional Neural Network", "Recurrent Neural Network", "Feedforward Neural Network", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of dropout in neural networks?",
+      "options": ["To prevent overfitting", "To speed up training", "To increase model complexity", "None of the above"],
+      "answer": "To prevent overfitting"
+    },
+    {
+      "question": "Which of the following is a common activation function used in neural networks?",
+      "options": ["Sigmoid", "ReLU", "Tanh", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does 'gradient descent' refer to in machine learning?",
+      "options": ["A method for optimizing model parameters", "A technique for data preprocessing", "A type of neural network", "None of the above"],
+      "answer": "A method for optimizing model parameters"
+    },
+    {
+      "question": "Which of the following is a common optimization algorithm used in machine learning?",
+      "options": ["Stochastic Gradient Descent", "Adam", "RMSprop", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of regularization in machine learning?",
+      "options": ["To prevent overfitting", "To improve model performance", "To reduce training time", "None of the above"],
+      "answer": "To prevent overfitting"
+    },
+    {
+      "question": "Which of the following is a type of ensemble method?",
+      "options": ["Random Forest", "Boosting", "Bagging", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the test set in machine learning?",
+      "options": ["To evaluate the performance of the model", "To fit the model to data", "To tune hyperparameters", "None of the above"],
+      "answer": "To evaluate the performance of the model"
+    },
+    {
+      "question": "Which of the following is a common library for deep learning?",
+      "options": ["TensorFlow", "Keras", "PyTorch", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is 'transfer learning' in machine learning?",
+      "options": ["Using a pre-trained model for a new task", "Training a model from scratch", "Using multiple models for one task", "None of the above"],
+      "answer": "Using a pre-trained model for a new task"
+    },
+    {
+      "question": "Which of the following is a common technique for data augmentation?",
+      "options": ["Flipping images", "Rotating images", "Adding noise to images", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of a validation set in machine learning?",
+      "options": ["To evaluate model performance during training", "To fit the model to data", "To test the model on unseen data", "None of the above"],
+      "answer": "To evaluate model performance during training"
+    },
+    {
+      "question": "Which of the following is a common method for handling missing data?",
+      "options": ["Imputation", "Deletion", "Interpolation", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is 'ensemble learning'?",
+      "options": ["Combining multiple models to improve performance", "Training a single model", "Using only one algorithm for predictions", "None of the above"],
+      "answer": "Combining multiple models to improve performance"
+    },
+    {
+      "question": "Which of the following is a common method for feature selection?",
+      "options": ["Recursive Feature Elimination", "Principal Component Analysis", "Lasso Regression", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is 'data leakage' in machine learning?",
+      "options": ["Using test data during training", "Using training data during testing", "Using validation data during training", "None of the above"],
+      "answer": "Using test data during training"
+    },
+    {
+      "question": "Which of the following is a common method for evaluating regression models?",
+      "options": ["Mean Absolute Error", "Mean Squared Error", "R-squared", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is 'feature importance'?",
+      "options": ["A measure of how much a feature contributes to the model's predictions", "A method for selecting features", "A type of model evaluation", "None of the above"],
+      "answer": "A measure of how much a feature contributes to the model's predictions"
+    },
+    {
+      "question": "Which of the following is a common method for handling categorical data?",
+      "options": ["One-hot encoding", "Label encoding", "Binary encoding", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is 'batch normalization'?",
+      "options": ["A technique for normalizing data in batches", "A method for improving model performance", "A type of regularization", "None of the above"],
+      "answer": "A technique for normalizing data in batches"
+    },
+    {
+      "question": "Which of the following is a common method for evaluating classification models?",
+      "options": ["Accuracy", "Precision", "Recall", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is 'early stopping' in machine learning?",
+      "options": ["Stopping training when the model starts to overfit", "Stopping training when the model reaches a certain accuracy", "Stopping training after a fixed number of epochs", "None of the above"],
+      "answer": "Stopping training when the model starts to overfit"
+    },
+    {
+      "question": "Which of the following is a common method for handling imbalanced data?",
+      "options": ["Oversampling", "Undersampling", "Synthetic data generation", "All of the above"],
+      "answer": "All of the above"
+    }
+  ]
+  

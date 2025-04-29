@@ -12,35 +12,37 @@ import { useNavigation } from '@react-navigation/native';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
+  const [type, setType] = useState(''); // technical or non-technical
   const [searchText, setSearchText] = useState('');
-
   const courses = [
-    { name: 'Python Programming', image: require('../assets/python.png') },
-    { name: 'Java Programming', image: require('../assets/java.png') },
-    { name: 'Web Development', image: require('../assets/web.png') },
-    { name: 'Data Science', image: require('../assets/data.png') },
-    { name: 'Artificial Intelligence', image: require('../assets/robot.png') },
-    { name: 'Machine Learning', image: require('../assets/ml.png') },
-    { name: 'Aptitude Skills', image: require('../assets/default.png') },
+    { name: 'Python Programming',callname : 'python', image: require('../assets/python.png') },
+    { name: 'Java Programming',callname : 'java', image: require('../assets/java.png') },
+    { name: 'Web Development',callname : 'web', image: require('../assets/web.png') },
+    { name: 'Data Science',callname : 'datascience', image: require('../assets/data.png') },
+    { name: 'Artificial Intelligence',callname : 'ai', image: require('../assets/robot.png') },
+    { name: 'Machine Learning',callname : 'ml', image: require('../assets/ml.png') },
+    { name: 'Aptitude Skills',callname : 'aptitude', image: require('../assets/default.png') },
     {
       name: 'Blockchain Technology',
+      callname : 'blockchain',
       image: require('../assets/blockchain.png'),
     },
   ];
-  const handleCourseSelect = (courseName) => {
-    navigation.navigate('Quiz', { topic: courseName });
+
+  const handleCourseSelect = (callname) => {
+    navigation.navigate('Quiz', { topic: callname });
   };
 
   const handleSearch = () => {
-    if (searchText.trim() !== '') {
-      navigation.navigate('Quiz', { topic: searchText.trim() });
+    if (type !== '') {
+      navigation.navigate('Quiz', { topic: type });
     }
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Boostify 🚀</Text>
-
+          
       <TextInput
         style={styles.searchInput}
         placeholder="Search your own topic..."
@@ -48,9 +50,43 @@ const HomeScreen = () => {
         onChangeText={setSearchText}
       />
 
-      <TouchableOpacity style={styles.searchButton} onPress={handleSearch}>
-        <Text style={styles.searchButtonText}>Start with Search</Text>
-      </TouchableOpacity>
+      <View style={styles.typeButtons}>
+        <TouchableOpacity
+          style={[
+            styles.typeButton,
+            type === 'technical' && styles.typeButtonActive,
+          ]}
+          onPress={() => setType('technical')}>
+          <Text
+            style={[
+              styles.typeButtonText,
+              type === 'technical' && styles.typeButtonTextActive,
+            ]}>
+            Technical
+          </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={[
+            styles.typeButton,
+            type === 'non-technical' && styles.typeButtonActive,
+          ]}
+          onPress={() => setType('non-technical')}>
+          <Text
+            style={[
+              styles.typeButtonText,
+              type === 'non-technical' && styles.typeButtonTextActive,
+            ]}>
+            Non-Technical
+          </Text>
+        </TouchableOpacity>
+      </View>
+
+      {type !== '' && (
+        <TouchableOpacity style={styles.searchButton} onPress={handleSearch}>
+          <Text style={styles.searchButtonText}>Start with {type}</Text>
+        </TouchableOpacity>
+      )}
 
       <Text style={styles.subtitle}>Or choose a course:</Text>
 
@@ -59,7 +95,7 @@ const HomeScreen = () => {
           <TouchableOpacity
             key={index}
             style={styles.courseButton}
-            onPress={() => handleCourseSelect(course.name)}>
+            onPress={() => handleCourseSelect(course.callname)}>
             <View style={styles.courseCard}>
               <Image source={course.image} style={styles.courseImage} />
               <Text style={styles.courseText}>{course.name}</Text>
@@ -96,6 +132,35 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     fontSize: 16,
   },
+  subtitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    marginBottom: 10,
+    color: '#333',
+  },
+  typeButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 10,
+  },
+  typeButton: {
+    flex: 1,
+    backgroundColor: '#e0e0e0',
+    paddingVertical: 12,
+    borderRadius: 10,
+    marginHorizontal: 5,
+    alignItems: 'center',
+  },
+  typeButtonActive: {
+    backgroundColor: '#3b82f6',
+  },
+  typeButtonText: {
+    color: '#333',
+    fontWeight: 'bold',
+  },
+  typeButtonTextActive: {
+    color: '#fff',
+  },
   searchButton: {
     backgroundColor: '#3b82f6',
     paddingVertical: 12,
@@ -108,11 +173,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
   },
-  subtitle: {
-    fontSize: 20,
-    fontWeight: '600',
-    marginBottom: 10,
-    color: '#333',
+  courseList: {
+    paddingBottom: 40,
   },
   courseButton: {
     backgroundColor: '#f0f0f0',
